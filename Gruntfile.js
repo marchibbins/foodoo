@@ -27,34 +27,34 @@ module.exports = function (grunt) {
 
         // Watches files for changes and runs tasks based on the changed files
         watch: {
-               js: {
-                   files: ['<%= yeoman.app %>/scripts/{,*/}*.js'],
-                    tasks: ['newer:jshint:all'],
-                    options: {
-                        livereload: true
-                    }
-                },
-                jsTest: {
-                    files: ['test/spec/{,*/}*.js'],
-                    tasks: ['newer:jshint:test', 'karma']
-                },
-                styles: {
-                    files: ['<%= yeoman.app %>/styles/{,*/}*.css'],
-                    tasks: ['newer:copy:styles', 'autoprefixer']
-                },
-                gruntfile: {
-                    files: ['Gruntfile.js']
-                },
-                livereload: {
-                    options: {
-                         livereload: '<%= connect.options.livereload %>'
-                    },
-                    files: [
-                        '<%= yeoman.app %>/{,*/}*.html',
-                        '.tmp/styles/{,*/}*.css',
-                        '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
-                    ]
+            js: {
+                files: ['<%= yeoman.app %>/scripts/{,*/}*.js'],
+                tasks: ['newer:jshint:all'],
+                options: {
+                    livereload: true
                 }
+            },
+            jsTest: {
+                files: ['test/spec/{,*/}*.js'],
+                tasks: ['newer:jshint:test', 'karma']
+            },
+            styles: {
+                files: ['<%= yeoman.app %>/styles/{,*/}*.css'],
+                tasks: ['newer:copy:styles', 'autoprefixer']
+            },
+            gruntfile: {
+                files: ['Gruntfile.js']
+            },
+            livereload: {
+                options: {
+                    livereload: '<%= connect.options.livereload %>'
+                },
+                files: [
+                    '<%= yeoman.app %>/{,*/}*.html',
+                    '.tmp/styles/{,*/}*.css',
+                    '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
+                ]
+            }
         },
 
         // The actual grunt server settings
@@ -112,10 +112,10 @@ module.exports = function (grunt) {
         clean: {
             dist: {
                 files: [{
-                   dot: true,
-                   src: [
-                       '.tmp',
-                       '<%= yeoman.dist %>/*',
+                    dot: true,
+                    src: [
+                        '.tmp',
+                        '<%= yeoman.dist %>/*',
                         '!<%= yeoman.dist %>/.git*'
                     ]
                 }]
@@ -133,7 +133,7 @@ module.exports = function (grunt) {
                     expand: true,
                     cwd: '.tmp/styles/',
                     src: '{,*/}*.css',
-                       dest: '.tmp/styles/'
+                    dest: '.tmp/styles/'
                 }]
             }
         },
