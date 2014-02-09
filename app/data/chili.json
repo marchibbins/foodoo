@@ -1,0 +1,11 @@
+{
+    "name": "Chili",
+    "slug": "chili",
+    "ingredientList": [
+        "tomatoes",
+        "greens",
+        "beans",
+        "chili powder",
+        "rice"
+    ]
+}

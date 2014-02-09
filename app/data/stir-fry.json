@@ -1,0 +1,11 @@
+{
+    "name": "Stir fry",
+    "slug": "stir-fry",
+    "ingredientList": [
+        "kale",
+        "pepper",
+        "garlic",
+        "beans",
+        "rice"
+    ]
+}

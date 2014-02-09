@@ -1,6 +1,7 @@
 [
     {
         "name": "Stir fry",
+        "slug": "stir-fry",
         "ingredientList": [
             "kale",
             "pepper",
@@ -11,6 +12,7 @@
     },
     {
         "name": "Chili",
+        "slug": "chili",
         "ingredientList": [
             "tomatoes",
             "greens",
@@ -21,6 +23,7 @@
     },
     {
         "name": "Soup",
+        "slug": "soup",
         "ingredientList": [
             "avocado",
             "pepper",

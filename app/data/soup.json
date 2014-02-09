@@ -1,0 +1,10 @@
+{
+    "name": "Soup",
+    "slug": "soup",
+    "ingredientList": [
+        "avocado",
+        "pepper",
+        "hemp milk",
+        "oregano"
+    ]
+}

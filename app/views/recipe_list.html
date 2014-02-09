@@ -1,7 +1,7 @@
 <h1>Recipes</h1>
 
 <article ng-repeat="recipe in recipeList | filter:recipe_query">
-    <h2>{{ recipe.name }}</h2>
+    <h2><a href="/#/recipe/{{ recipe.slug }}">{{ recipe.name }}</a></h2>
     <ul>
         <li ng-repeat="ingredient in recipe.ingredientList">{{ ingredient }}</li>
     </ul>

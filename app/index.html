@@ -14,12 +14,13 @@
     <!-- endbuild -->
 </head>
 <body ng-app="foodooApp">
-    <div class="container" ng-include="'views/recipe_list.html'" ng-controller="RecipeListCtrl"></div>
+    <div class="container" ng-view=""></div>
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
