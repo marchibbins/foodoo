@@ -6,7 +6,7 @@ describe('Controller: RecipeListCtrl', function () {
     beforeEach(module('foodooApp'));
 
     var RecipeListCtrl,
-    scope;
+        scope;
 
     // Initialize the controller and a mock scope
     beforeEach(inject(function ($controller, $rootScope) {

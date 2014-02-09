@@ -1,3 +1,5 @@
 'use strict';
 
-angular.module('foodooApp', []);
+angular.module('foodooApp', [
+    'ngResource'
+]);
