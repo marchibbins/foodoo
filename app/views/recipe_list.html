@@ -1,9 +1,9 @@
 <h1>Recipes</h1>
 
-<article ng-repeat="recipe in recipe_list | filter:recipe_query">
+<article ng-repeat="recipe in recipeList | filter:recipe_query">
     <h2>{{ recipe.name }}</h2>
     <ul>
-    	<li ng-repeat="ingredient in recipe.ingredients_list">{{ ingredient }}</li>
+        <li ng-repeat="ingredient in recipe.ingredientList">{{ ingredient }}</li>
     </ul>
 </article>
 

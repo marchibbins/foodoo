@@ -6,7 +6,7 @@ angular.module('foodooApp')
             query: {
                 method: 'GET',
                 params: {
-                    slug: 'recipe_list'
+                    slug: 'index'
                 },
                 isArray: true
             }

@@ -17,6 +17,6 @@ describe('Controller: RecipeListCtrl', function () {
     }));
 
     it('should attach a list of recipes to the scope', function () {
-        expect(scope.recipe_list.length).toBeGreaterThan(0);
+        expect(scope.recipeList.length).toBeGreaterThan(0);
     });
 });

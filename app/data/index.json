@@ -1,7 +1,7 @@
 [
     {
         "name": "Stir fry",
-        "ingredients_list": [
+        "ingredientList": [
             "kale",
             "pepper",
             "garlic",
@@ -11,7 +11,7 @@
     },
     {
         "name": "Chili",
-        "ingredients_list": [
+        "ingredientList": [
             "tomatoes",
             "greens",
             "beans",
@@ -21,7 +21,7 @@
     },
     {
         "name": "Soup",
-        "ingredients_list": [
+        "ingredientList": [
             "avocado",
             "pepper",
             "hemp milk",
