@@ -1,0 +1,12 @@
+<h1>Recipes</h1>
+
+<article ng-repeat="recipe in recipe_list | filter:recipe_query">
+    <h2>{{ recipe.name }}</h2>
+    <ul>
+    	<li ng-repeat="ingredient in recipe.ingredients_list">{{ ingredient }}</li>
+    </ul>
+</article>
+
+<form class="form">
+    <input type="text" ng-model="recipe_query">
+</form>
