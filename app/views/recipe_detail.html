@@ -1,7 +1,13 @@
-<h1>{{ recipe.name }}</h1>
+<div ng-if="recipe.slug">
+    <h1>{{ recipe.name }}</h1>
 
-<ul>
-    <li ng-repeat="ingredient in recipe.ingredientList">{{ ingredient }}</li>
-</ul>
+    <ul>
+        <li ng-repeat="ingredient in recipe.ingredientList">{{ ingredient }}</li>
+    </ul>
+</div>
+
+<div ng-if="!recipe.slug">
+    <h1>Recipe not found</h1>
+</div>
 
 <a href="/">All recipes</a>
